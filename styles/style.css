@@ -13,10 +13,32 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #94A684;
+  color: #A9907E;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #AEC3AE;
+  border-bottom: 2px solid #675D50;
 }
 
-/*# sourceMappingURL=style.css.map */
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F3DEBA;
+  opacity: 0.7;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #A9907E;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #675D50;
+}/*# sourceMappingURL=style.css.map */
